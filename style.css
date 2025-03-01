@@ -1,0 +1,59 @@
+/* Ensures the body is displayed normally */
+body {
+    margin: 0; /* Removes default body margin */
+}
+
+/* First section - stays at the top with no changes */
+.First-section {
+    padding-top: 1.3vw;
+    padding-left: 2vw;
+    color: rgb(255, 255, 255);
+    background-color: rgb(87, 87, 255);
+    padding-bottom: 1vw;
+    margin-bottom: 100px;
+}
+
+/* Second section - centered */
+.Second-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(89, 46, 206);
+    border: 3px solid blue; /* Added the border style and color */
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+    width: 300px;
+    height: 40px; /* Added height for better centering visualization */
+    margin: 0;
+    position: relative; /* Change from absolute to relative for normal flow */
+    top: 27%; /* Adjust the top if necessary */
+    left: 50%; /* Move the left of the section to the middle of the page */
+    transform: translateX(-50%); /* Corrects the position to truly center it */
+}
+
+/* Third section - positioned directly beneath the second section */
+.Third-section {
+    margin-top: 80px; /* Adjust the value to control the distance between second and third sections */
+    padding: 20px;
+    background-color: #f1f1f1; /* Example background color for the third section */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; /* Center the third section horizontally */
+}
+
+/* Form styles if you have a form inside the third section */
+form {
+    width: 100%;
+    max-width: 400px; /* Restrict max width of the form */
+    margin: 20px auto; /* Center form horizontally */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd; /* Light border around the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-sizing: border-box;
+}
