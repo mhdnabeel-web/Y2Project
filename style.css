@@ -11,6 +11,7 @@ body {
     background-color: rgb(87, 87, 255);
     padding-bottom: 1vw;
     margin-bottom: 90px;
+    font-size: 15px;
 }
 
 /* Second section - centered */
@@ -101,7 +102,6 @@ form input:focus {
     border-color: #4CAF50; /* Change border color on focus */
     box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Add a soft green shadow */
 }
-
 .signup-link {
     text-align: center; /* Center the text */
     margin-top: 15px; /* Space between the button and the link */
