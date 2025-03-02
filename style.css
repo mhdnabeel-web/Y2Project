@@ -10,7 +10,7 @@ body {
     color: rgb(255, 255, 255);
     background-color: rgb(87, 87, 255);
     padding-bottom: 1vw;
-    margin-bottom: 90px;
+    margin-bottom: 40px;
     font-size: 15px;
 }
 
@@ -96,6 +96,7 @@ form button:hover {
     background-color: #45a049; /* Darker green when hovered */
 }
 
+/* Optional: Add focus styles to inputs for better accessibility */
 /* Focus state for input fields */
 form input:focus {
     outline: none; /* Remove default focus outline */
