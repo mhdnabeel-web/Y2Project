@@ -96,11 +96,11 @@ form button:hover {
     background-color: #45a049; /* Darker green when hovered */
 }
 
-/* Optional: Add focus styles to inputs for better accessibility */
+/* Focus state for input fields */
 form input:focus {
     outline: none; /* Remove default focus outline */
-    border-color: #4CAF50; /* Change border color on focus */
-    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Add a soft green shadow */
+    border-color: #4A90E2; /* Change border color to blue */
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5); /* Add a soft blue shadow */
 }
 .signup-link {
     text-align: center; /* Center the text */
