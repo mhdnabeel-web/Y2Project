@@ -10,7 +10,7 @@ body {
     color: rgb(255, 255, 255);
     background-color: rgb(87, 87, 255);
     padding-bottom: 1vw;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
 
 /* Second section - centered */
@@ -34,7 +34,7 @@ body {
 
 /* Third section - positioned directly beneath the second section */
 .Third-section {
-    margin-top: 80px; /* Adjust the value to control the distance between second and third sections */
+    margin-top: 35px; /* Adjust the value to control the distance between second and third sections */
     padding: 20px;
     background-color: #f1f1f1; /* Example background color for the third section */
     border: 1px solid #ccc;
@@ -50,10 +50,84 @@ form {
     width: 100%;
     max-width: 400px; /* Restrict max width of the form */
     margin: 20px auto; /* Center form horizontally */
-    padding: 20px;
+    padding: 10px;
     background-color: #f9f9f9;
     border: 1px solid #ddd; /* Light border around the form */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     box-sizing: border-box;
+}
+/* Form labels */
+form label {
+    display: block; /* Make labels block level so each input appears below */
+    margin-bottom: 8px; /* Space between label and input */
+    font-weight: bold; /* Bold labels for clarity */
+    color: #333; /* Dark gray color for the labels */
+    font-size: 18px;
+}
+
+/* Form input fields */
+form input {
+    width: 100%; /* Make the input fields take full width */
+    padding: 10px; /* Space inside the input fields */
+    margin-bottom: 16px; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 16px; /* Larger font for readability */
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+/* Form button */
+form button {
+    width: 100%; /* Make the button span the full width of the form */
+    padding: 12px; /* Add padding to make the button larger */
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text */
+    font-size: 18px; /* Larger font for the button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+form button:hover {
+    background-color: #45a049; /* Darker green when hovered */
+}
+
+/* Optional: Add focus styles to inputs for better accessibility */
+form input:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #4CAF50; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Add a soft green shadow */
+}
+.signup-link {
+    text-align: center; /* Center the text */
+    margin-top: 15px; /* Space between the button and the link */
+    font-size: 16px; /* Smaller font size */
+
+}
+
+.signup-link a {
+    color: #3982e0; /* Green color for the link */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px;
+}
+
+.signup-link a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+.login-link {
+    text-align: center; /* Center the text */
+    margin-top: 15px; /* Space between the button and the link */
+    font-size: 16px; /* Smaller font size */
+}
+
+.login-link a {
+    color: #3982e0; /* Green color for the link */
+    text-decoration: none; /* Remove underline */
+}
+
+.login-link a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
